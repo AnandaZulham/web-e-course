@@ -1,0 +1,328 @@
+
+/* style untuk navigasu */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 4.5em;
+    align-items: center;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.navigation h2 {
+    font-size: 2rem;
+    color: #212121;
+    font-weight: bold;
+    margin-left: 1.7em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-menu {
+    margin-right: 1.7em;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.nav-menu ul li a {
+    color: #0059ff;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: color 0.2s;
+}
+
+.nav-menu ul li a:hover {
+    color: #212121;
+}
+
+.nav-menu ul li i  {
+    font-size: 22px;
+    display: none;
+    cursor: pointer;
+}
+
+/* Style untuk sidebar */
+.sidebar {
+    width:200px;
+    background-color:#212121d8;
+    position: fixed;
+    right: -300px;
+    transition:0.3s;
+    top: 0;
+    bottom: 0;
+}
+
+.sidebar .close {
+    color: #0059ff;
+    position: absolute;
+    left: -1.1em;
+}
+.sidebar ul li {
+    margin-bottom: 3em;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.sidebar ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color .3s;
+    padding: 10px 0;
+    margin-right: 20px;
+}
+
+/* Style untuk container-1/Heading */
+.container-1 {
+    height: 570px;
+    background: url(./gambar/gambar.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+.heading {
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 70px;
+}
+
+.heading h2,
+.heading h3 {
+    font-size: 40px;
+    line-height: 1.2em;
+    letter-spacing: 3px;
+    color: #fff;
+    margin: 23px 0;
+}
+
+.button {
+    margin: 85px auto;
+}
+
+.button a {
+    padding: 15px 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    border: 3px solid #0059ff;
+    border-radius: 3px;
+    transition: .2s;
+}
+
+.button a:hover {
+    background: #0059ff;
+}
+
+/* Style unutk container-2 atau pelajaran*/
+.container-2 {
+    background-color: #f5f6f7;
+    padding-bottom: 40px;
+    width: 90%;
+    margin: 8rem auto;
+    box-shadow: 0 3px 5px #ddd, 0 0 2px #ddd;
+    font-family: 'Lato', sans-serif;
+}
+
+.heading-2 h6 {
+    padding-top: 30px;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #3a3333;
+}
+
+.lesson {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.lesson-wrap {
+    text-align: center;
+    padding: 30px 25px;
+    border-radius: 6px;
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+    color: #3a3333;
+    background-color: #0059ff;
+    color: #fff;
+    box-shadow: 0 5px 7px #cccccc;
+    height: auto;
+}
+
+.lesson-wrap h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.lesson-wrap p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 200px;
+    padding-top: 10px;
+}
+.lesson-wrap a {
+    padding: 12px 0;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    margin: 4em auto;
+    margin-bottom: 0;
+    transition: .3s;
+    display: block;
+    width: 150px;
+}
+
+.lesson-wrap a:hover {
+    background-color:white;
+    color: #0059ff;
+}
+/* Style untuk container-3*/
+.container-3 {
+    display:flex ;
+    justify-content:center ;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-3 img {
+    width: 500px;
+}
+.heading-3 {
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 3rem;
+}
+
+.heading-3 h2 {
+    color: #212121;
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+.list li {
+    padding: 1em 0;
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+.list .fas {
+    color: #0059ff;
+}
+
+.list i{
+    margin-right: 1em;
+}
+
+.list a {
+    padding: 15px;
+    color: #212121;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    background: none;
+    border: 2px solid #0059ff;
+    border-radius: 50px;
+    text-align: left;
+}
+
+.list .icon {
+    margin: 1em auto;
+    position: relative;
+    top: .18em;
+    left: .20em;
+}
+
+/* Style untuk Footer */
+
+.container-footer {
+    margin-top: 12em;
+    font-family: 'Lato', sans-serif;
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-1 h2 {
+    font-size: 2em;
+    color: #212121;
+    font-weight: bold;
+    margin-left: 1.7em; 
+    font-family: 'Roboto', sans-serif;            
+}
+
+.menu-2 {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content:space-between ;
+    margin-bottom:5em ;
+}
+
+.sub-menu {
+    margin-left: 7em;
+}
+
+.menu-2 ul li {
+    margin-bottom: 2em;
+    color: #0059ff;
+    text-decoration: underline;
+}
+
+.menu-2 ul li:nth-child(1) {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.menu-2 ul li a {
+    color: #0059ff;
+    font-weight: normal;
+}
+
+.fab {
+    font-size: 26px;
+    color: #0059ff;
+    text-align: center;
+    margin: 0 2em 0 0;
+}
+
+.icon p {
+    font-size: 22px;
+    color: #0059ff;
+    font-weight: 600;
+    margin-bottom: 2em;
+    margin-right: 20px;
+}
+
+.text-copyright {
+    background-color: #212121;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text-copyright p {
+    color: white;
+    font-size: 14px;
+}

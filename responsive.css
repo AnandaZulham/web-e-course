@@ -1,0 +1,104 @@
+/* RESPONSIVE */
+
+@media(max-width:1024px) {
+    .lesson {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lesson-wrap-1 {
+        margin-top: 30px;
+        width: 80%;
+    }
+    .wrapper {
+        height: 400px;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70%;
+    }
+    .heading h2, 
+    .heading h3 {
+        margin: 23px 0;
+    }
+    .container-3 {
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+        width: 100%;
+    }
+    .menu-2 {
+        margin-top: 1.6em;
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .icon {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .icon p {
+        margin: 0;
+    }
+    
+    .menu-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .container-2 {
+        display: flex;
+        align-items: center;
+    }
+    .container-2 .list{
+        width: 300px;
+        font-size: 14px;
+    }
+    .fab {
+      margin:  25px 20px;
+    }
+    
+}
+
+@media (max-width:700px) {
+    .nav-menu ul li i {
+        display: inline;
+    }
+    .nav-menu ul li a {
+        display: none;
+    }
+
+    .container-1 {
+        height: 85vh;
+    }
+
+    .container-3 img {
+        width: 360px;
+    }
+    .button {
+        margin-top: 7em;
+    }
+    .heading h2, 
+    .heading h3 {
+        margin: 23px 0;
+        font-size: 35px;
+    }
+}
+
+@media(max-width:330px) {
+    .button {
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .button a {
+        margin:30px 0;
+    }
+}
