@@ -1,5 +1,4 @@
-
-/* style untuk navigasu */
+/* style untuk navigasi */
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -268,8 +267,8 @@
     font-size: 2em;
     color: #212121;
     font-weight: bold;
-    margin-left: 1.7em; 
-    font-family: 'Roboto', sans-serif;            
+    margin-left: 1.7em;
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu-2 {
