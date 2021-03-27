@@ -128,9 +128,8 @@
 .container-2 {
     background-color: #f5f6f7;
     padding-bottom: 40px;
-    width: 90%;
+    width: 100%;
     margin: 8rem auto;
-    box-shadow: 0 3px 5px #ddd, 0 0 2px #ddd;
     font-family: 'Lato', sans-serif;
 }
 
@@ -147,55 +146,60 @@
 .lesson {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     justify-content: space-between;
-    margin: 30px;
+    width: 85%;
 }
 
 .lesson-wrap {
-    text-align: center;
     padding: 30px 25px;
     border-radius: 6px;
     margin-top: 2.5em;
     margin-bottom: 3em;
     color: #3a3333;
-    background-color: #0059ff;
-    color: #fff;
-    box-shadow: 0 5px 7px #cccccc;
+    box-shadow: 0 2px 2px #cccccc;
     height: auto;
+    width: 300px;
+    margin:20px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #fafafa;
+}
+
+.lesson-wrap img {
+  position: absolute;
+  left: 75px;
 }
 
 .lesson-wrap h1 {
-    font-size: 28px;
+    font-size: 26px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 6.3em;
     font-weight: 800;
 }
-
 .lesson-wrap p {
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 14px;
     width: 200px;
-    padding-top: 10px;
+    margin-top: 10px;
+    line-height: 18px;
 }
 .lesson-wrap a {
-    padding: 12px 0;
-    font-size: 14px;
-    color: white;
+    padding: 12px 15px;
+    font-size: 12px;
     cursor: pointer;
     font-weight: 700;
-    background: none;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #0059ff;
     border-radius: 50px;
-    margin: 4em auto;
+    margin: 3em auto;
     margin-bottom: 0;
     transition: .3s;
-    display: block;
-    width: 150px;
+    display: inline-block;
+    color: #0059ff
 }
 
 .lesson-wrap a:hover {
-    background-color:white;
-    color: #0059ff;
+  background: #0059ff;
+  color: white
 }
 /* Style untuk container-3*/
 .container-3 {
@@ -222,7 +226,6 @@
 .list li {
     padding: 1em 0;
     font-size: 1.3em;
-    margin-top: 1em;
 }
 .list .fas {
     color: #0059ff;
