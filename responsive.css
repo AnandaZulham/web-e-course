@@ -1,10 +1,11 @@
 /* RESPONSIVE */
 
-@media(max-width:1024px) {
+@media (max-width:700px) {
     .lesson {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .lesson-wrap-1 {
@@ -14,17 +15,18 @@
     .wrapper {
         height: 400px;
     }
-
     .container-2 {
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 70%;
     }
-    .heading h2, 
+
+    .heading h2,
     .heading h3 {
         margin: 23px 0;
     }
+
     .container-3 {
         display: flex;
         flex-direction: column;
@@ -46,7 +48,7 @@
     .icon p {
         margin: 0;
     }
-    
+
     .menu-footer {
         display: flex;
         flex-direction: column;
@@ -63,13 +65,11 @@
     .fab {
       margin:  25px 20px;
     }
-    
-}
 
-@media (max-width:700px) {
     .nav-menu ul li i {
         display: inline;
     }
+
     .nav-menu ul li a {
         display: none;
     }
@@ -79,12 +79,20 @@
     }
 
     .container-3 img {
-        width: 360px;
+        width: 340px;
+    }
+
+    .container-3 .heading-3 {
+      padding: 20px;
+    }
+    .container-3 .heading-3 h2 {
+      font-size: 1.8em;
+      line-height: 1.3em;
     }
     .button {
         margin-top: 7em;
     }
-    .heading h2, 
+    .heading h2,
     .heading h3 {
         margin: 23px 0;
         font-size: 35px;
