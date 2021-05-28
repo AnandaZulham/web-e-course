@@ -2,10 +2,6 @@
 
 DEMO : https://web-e-course.netlify.app/
 
-#### Full Screenshoot :
-
-![Full Screenshoot](./gambar/screenshoot.png)
-
 Font : **Roboto** and **Lato** , *[fontsgoogle](https://fonts.google.com/)*.
 Image : *[pixabay](https://pixabay.com/)*.
 Illustration : *[undraw](https://undraw.co/)*.
