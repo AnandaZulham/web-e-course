@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -60,37 +61,37 @@
             <h6> Daftar Pelajaran</h6>
         </div>
         <div class="lesson">
-            <div class="lesson-wrap">
+            <div class="lesson-wrap" data-aos="zoom-in" data-aos-duration="1000">
                 <img src="https://img.icons8.com/color/144/000000/html-5.png" alt="HTML Logo"/>
                 <h1> HTML </h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                 <a href="#"> Mulai Sekarang</a>
             </div>
-            <div class="lesson-wrap">
+            <div class="lesson-wrap" data-aos="zoom-in" data-aos-duration="1100">
                 <img src="https://img.icons8.com/color/144/000000/css3.png" alt="CSS Logo"/>
                 <h1> CSS </h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                 <a href="#"> Mulai Sekarang</a>
             </div>
-            <div class="lesson-wrap">
+            <div class="lesson-wrap" data-aos="zoom-in" data-aos-duration="1200">
                 <img src="https://img.icons8.com/color/144/000000/javascript.png" alt="Javascript Logo"/>
                 <h1> Javascript </h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                 <a href="#"> Mulai Sekarang</a>
             </div>
-            <div class="lesson-wrap">
+            <div class="lesson-wrap" data-aos="zoom-in" data-aos-duration="1300">
                 <img src="./gambar/Git-Icon-1788C.png" alt="Git Logo" width="144">
                 <h1> Git </h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                 <a href="#"> Mulai Sekarang</a>
             </div>
-            <div class="lesson-wrap">
+            <div class="lesson-wrap" data-aos="zoom-in" data-aos-duration="1400">
                 <img src="https://img.icons8.com/color/144/000000/bootstrap.png"/>
                 <h1> Bootstrap </h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                 <a href="#"> Mulai Sekarang</a>
             </div>
-            <div class="lesson-wrap">
+            <div class="lesson-wrap" data-aos="zoom-in" data-aos-duration="1500">
                 <img src="./gambar/tailwindcss-mark.cb8046c163f77190406dfbf4dec89848.svg" alt="Tailwind Logo" width="144" style="margin-top:20px;">
                 <h1> Tailwind </h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
@@ -100,10 +101,10 @@
     </div>
 
     <div class="container-3">
-        <div class="image">
+        <div class="image" data-aos="fade-right" data-aos-duration="1300">
             <img src="./gambar/undraw_To_do_re_jaef.svg" alt="Illustrasi Checklist">
         </div>
-        <div class="heading-3">
+        <div class="heading-3" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
             <h2> Apa Manfaat Belajar Disini ? </h2>
             <ul class="list">
                 <li><i class="fas fa-check-circle"></i>Belajar Secara Langsung</li>
@@ -151,6 +152,13 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+        	once : true
+        });
+      </script>
+    
 </body>
 
 </html>
