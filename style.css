@@ -1,4 +1,8 @@
-/* style untuk navigasi */
+:root {
+	--color: #00C853;
+}
+
+/* Style untuk Navbar */
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -6,31 +10,31 @@
     align-items: center;
     width: 100%;
     font-family: 'Lato', sans-serif;
+    padding-top:15px
 }
 
 .navigation h2 {
     font-size: 2rem;
     color: #212121;
-    font-weight: bold;
-    margin-left: 1.7em;
-    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-left: 1em;
 }
 
 .nav-menu {
-    margin-right: 1.7em;
+    margin-right: 1em;
 }
 
 .nav-menu ul li {
     display: inline-block;
-    margin-right: 18px;
+    margin-right: 14px;
 }
 
 .nav-menu ul li a {
-    color: #0059ff;
+    color: var(--color);
     font-size: 16px;
     font-weight: 600;
-    margin-left: 35px;
-    transition: color 0.2s;
+    margin-left: 20px;
+    transition: color 0.3s;
 }
 
 .nav-menu ul li a:hover {
@@ -43,19 +47,17 @@
     cursor: pointer;
 }
 
-/* Style untuk sidebar */
+/* Style untuk Sidebar */
 .sidebar {
-    width:200px;
+    width:100px;
     background-color:#212121d8;
     position: fixed;
-    right: -300px;
     transition:0.3s;
-    top: 0;
-    bottom: 0;
+    display:none;
 }
 
 .sidebar .close {
-    color: #0059ff;
+    color: var(--color);
     position: absolute;
     left: -1.1em;
 }
@@ -74,40 +76,40 @@
     margin-right: 20px;
 }
 
-/* Style untuk container-1/Heading */
+/* Style untuk Hero */
 .container-1 {
-    height: 570px;
+    height: 450px;
     background: url(./gambar/picture.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
-    background-attachment: fixed;
+    margin-top:.9em;
 }
 
 .heading {
-    margin: 10px auto;
+    margin: .9em auto;
     text-align: center;
     font-weight: 600;
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 .heading h2,
 .heading h3 {
     font-size: 40px;
     line-height: 1.2em;
-    letter-spacing: 3px;
+    letter-spacing: .1em;
     color: #fff;
-    margin: 23px 0;
+    margin: 20px 0;
 }
 
 .button {
-    margin: 85px auto;
+    margin: 3em auto;
 }
 
 .button a {
-    padding: 15px 25px;
+    padding: 18px 28px;
     margin-left: 25px;
     margin-right: 25px;
     font-size: 18px;
@@ -115,18 +117,15 @@
     cursor: pointer;
     font-weight: 700;
     outline: none;
-    border: 3px solid #0059ff;
+    border: 3px solid var(--color);
     border-radius: 3px;
     transition: .2s;
+    background-color:var(--color);
 }
 
-.button a:hover {
-    background: #0059ff;
-}
-
-/* Style unutk container-2 atau pelajaran*/
+/* Style untuk Lesson */
 .container-2 {
-    background-color: #f5f6f7;
+    background-color: #FAFAFA;
     padding-bottom: 40px;
     width: 100%;
     margin: 8rem auto;
@@ -137,10 +136,10 @@
     padding-top: 30px;
     font-size: 32px;
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: .04em;
     margin-bottom: 1em;
     text-align: center;
-    color: #3a3333;
+    color: #212121;
 }
 
 .lesson {
@@ -156,57 +155,62 @@
     border-radius: 6px;
     margin-top: 2.5em;
     margin-bottom: 3em;
-    color: #3a3333;
-    box-shadow: 0 2px 2px #cccccc;
+    color: #424242;
+    box-shadow: 0 10px 18px rgba(150, 150, 160, .1);
     height: auto;
     width: 300px;
     margin:20px;
     box-sizing: border-box;
     position: relative;
-    background-color: #fafafa;
+    background-color: white;
 }
 
 .lesson-wrap img {
-  position: absolute;
-  left: 75px;
+ 		position: absolute;
+ 		left: 75px;
 }
 
 .lesson-wrap h1 {
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 20px;
     margin-top: 6.3em;
-    font-weight: 800;
+    font-weight: 700;
 }
 .lesson-wrap p {
-    font-size: 14px;
-    width: 200px;
+    font-size: 16px;
+    width: 220px;
     margin-top: 10px;
     line-height: 18px;
+    color: #757575;
+    height:70px;
 }
 .lesson-wrap a {
     padding: 12px 15px;
     font-size: 12px;
     cursor: pointer;
     font-weight: 700;
-    border: 2px solid #0059ff;
+    border: 2px solid var(--color);
     border-radius: 50px;
     margin: 3em auto;
     margin-bottom: 0;
     transition: .3s;
     display: inline-block;
-    color: #0059ff
+    color: var(--color);
+    font-weight:700;
 }
 
 .lesson-wrap a:hover {
-  background: #0059ff;
-  color: white
+  background: var(--color);
+  color:white;
 }
+
 /* Style untuk container-3*/
 .container-3 {
     display:flex ;
     justify-content: space-around;
     font-family: 'Lato', sans-serif;
     align-items: center;
+    margin-top: 15em;
 }
 
 .container-3 img {
@@ -222,18 +226,20 @@
     color: #212121;
     font-size: 2.6em;
     font-weight: bold;
+    margin-bottom:20px;
 }
 
 .list li {
     padding: 1em 0;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    text-align:center:
 }
 .list .fas {
-    color: #0059ff;
+    color: var(--color);
 }
 
 .list i{
-    margin-right: 1em;
+    margin-right: .8em;
 }
 
 .list a {
@@ -243,7 +249,7 @@
     cursor: pointer;
     font-weight: 700;
     background: none;
-    border: 2px solid #0059ff;
+    border: 2px solid var(--color);
     border-radius: 50px;
     text-align: left;
 }
@@ -258,7 +264,7 @@
 /* Style untuk Footer */
 
 .container-footer {
-    margin-top: 12em;
+    margin-top: 15em;
     font-family: 'Lato', sans-serif;
 }
 
@@ -270,17 +276,16 @@
 .menu-1 h2 {
     font-size: 2em;
     color: #212121;
-    font-weight: bold;
-    margin-left: 1.7em;
-    font-family: 'Roboto', sans-serif;
+    margin-left: 1.5em;
+    font-family: 'Lato', sans-serif;
 }
 
 .menu-2 {
     font-size: 16px;
     font-weight: 600;
     display: flex;
-    justify-content:space-between ;
-    margin-bottom:5em ;
+    justify-content: space-between;
+    margin-bottom: 4em;
 }
 
 .sub-menu {
@@ -288,9 +293,8 @@
 }
 
 .menu-2 ul li {
-    margin-bottom: 2em;
-    color: #0059ff;
-    text-decoration: underline;
+    margin-bottom: 1.5em;
+    color:#212121;
 }
 
 .menu-2 ul li:nth-child(1) {
@@ -299,20 +303,20 @@
 }
 
 .menu-2 ul li a {
-    color: #0059ff;
+    color: var(--color);
     font-weight: normal;
 }
 
 .fab {
     font-size: 26px;
-    color: #0059ff;
-    text-align: center;
-    margin: 0 2em 0 0;
+    color: var(--color);
+    margin-left:10px;
+    margin-right:15px;
 }
 
 .icon p {
     font-size: 22px;
-    color: #0059ff;
+    color: #212121;
     font-weight: 600;
     margin-bottom: 2em;
     margin-right: 20px;
