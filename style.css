@@ -1,5 +1,5 @@
 :root {
-	--color: #00C853;
+    --color: #00C853;
 }
 
 /* Style untuk Navbar */
@@ -48,23 +48,23 @@
 }
 
 /* Style untuk Sidebar */
-.sidebar {
-    width:100px;
-    background-color:#212121d8;
-    position: fixed;
-    transition:0.3s;
-    display:none;
+.sidebar, .sidebar-toggle {
+    width:100%;
+    background-color:var(--color);
+    position: absolute;
+    margin-top:14px;
+    right:0;
 }
 
-.sidebar .close {
-    color: var(--color);
-    position: absolute;
-    left: -1.1em;
+.sidebar-toggle {
+    display: none;
 }
+
 .sidebar ul li {
     margin-bottom: 3em;
-    text-align: right;
+    text-align: center;
     margin-top: 20px;
+    height: 1.5em;
 }
 
 .sidebar ul li a {
@@ -73,7 +73,10 @@
     font-weight: 600;
     transition: color .3s;
     padding: 10px 0;
-    margin-right: 20px;
+}
+
+.button-sidebar {
+    padding: 2px 4px;
 }
 
 /* Style untuk Hero */
@@ -308,7 +311,6 @@
 }
 
 .fab {
-    font-size: 26px;
     color: var(--color);
     margin-left:10px;
     margin-right:15px;
