@@ -10,7 +10,7 @@
     align-items: center;
     width: 100%;
     font-family: 'Lato', sans-serif;
-    padding-top:15px
+    padding-top:15px; 
 }
 
 .navigation h2 {
@@ -214,6 +214,7 @@
     font-family: 'Lato', sans-serif;
     align-items: center;
     margin-top: 15em;
+    overflow: hidden;
 }
 
 .container-3 img {
