@@ -149,8 +149,8 @@
 }
 
 .lesson-wrap img {
- 		position: absolute;
- 		left: 75px;
+	position: absolute;
+	left: 75px;
 }
 
 .lesson-wrap h1 {
@@ -163,7 +163,7 @@
     font-size: 16px;
     width: 220px;
     margin-top: 10px;
-    line-height: 18px;
+    line-height: 1.5em;
     color: #757575;
     height:70px;
 }
